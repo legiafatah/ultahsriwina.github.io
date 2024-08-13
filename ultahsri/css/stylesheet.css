@@ -1,0 +1,66 @@
+.jumbotron {
+    margin-bottom: 0px;
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+
+.jumbotron img {
+    width: 200px;
+    border: 5px solid #333;
+    padding-top: 20px; /* Adjust the padding as needed */
+    padding-bottom: 20px; /* Adjust the padding as needed */
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
+
+
+.pink {
+    color: salmon;
+}
+
+kata {
+    text-transform: capitalize;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+body {
+    margin-top: 20px; 
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    background-color: #f0f0f0;
+}
+#demo {
+    font-size: 2em;
+    background: #fff;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+.btn {
+    padding: 10px 20px;
+    font-size: 1em;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    cursor: not-allowed;
+}
+.btn:disabled {
+    background-color: #a0a0a0;
+    pointer-events: none;
+    cursor: not-allowed;
+}
+.btn-active {
+    background-color: #007bff;
+    cursor: pointer;
+    pointer-events: auto;
+}
